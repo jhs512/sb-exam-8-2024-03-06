@@ -17,6 +17,8 @@ public class App {
                     System.out.print("할일 : ");
                     String content = scanner.nextLine().trim();
 
+                    Todo todo = new Todo(id, content);
+
                     System.out.printf("%d번 할일이 생성되었습니다.\n", id);
                 }
             }
